@@ -23,4 +23,14 @@ function run() {
     // Sending our request 
     xhr.send();
 }
-run();
+
+function hello () {
+  const textBox = document.getElementById("nameZ");
+   console.log(typeof textBox);
+   console.log(textBox.id);
+   console.log(textBox.value);
+   console.log("Hola como estas " + textBox.value)
+}
+
+
+
