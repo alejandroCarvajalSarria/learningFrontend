@@ -1,0 +1,25 @@
+#principal{
+    text-align: center;
+
+}
+
+#titulo {
+    font-family: system-ui;
+    font-size: 3rem;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #bb0000;
+    padding: 20px 20px 20px 20px;
+    width: fit-content;
+    margin: 10px auto;
+    border-radius: 10px;
+    color: #FFF;
+    text-shadow: 5px 4px 6px #000;
+    transition: ease .2s;
+}
+
+#titulo:hover{
+    cursor:pointer;
+    background-color: aquamarine;
+    transform: scale(1.1);
+    
+}
