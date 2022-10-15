@@ -1,6 +1,5 @@
 #principal{
     text-align: center;
-
 }
 
 #titulo {
@@ -21,5 +20,4 @@
     cursor:pointer;
     background-color: aquamarine;
     transform: scale(1.1);
-     
 }

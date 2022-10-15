@@ -1,6 +1,5 @@
-#principal{
+#principal {
     text-align: center;
-
 }
 
 #titulo {
@@ -17,9 +16,8 @@
     transition: ease .2s;
 }
 
-#titulo:hover{
-    cursor:pointer;
+#titulo:hover {
+    cursor: pointer;
     background-color: aquamarine;
     transform: scale(1.1);
-    
 }
