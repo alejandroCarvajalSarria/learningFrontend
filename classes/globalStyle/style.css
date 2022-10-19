@@ -1,0 +1,23 @@
+@font-face {
+    font-family: titleStyle;
+    src: url(./../assets/Bloody\ terror\ TTF.ttf);
+  }
+
+  .textCenter {
+    text-align: center;
+
+}
+
+.tituloDiaX {
+
+    font-family: 'titleStyle';
+    font-size: 3rem;
+    padding: 20px 20px 20px 20px;
+    width: fit-content;
+    margin: 10px auto;
+    border-radius: 10px;
+    color: rgb(12, 12, 12);
+    text-shadow: 5px 4px 6px rgb(132, 4, 4);
+    transition: ease .2s;
+}
+
