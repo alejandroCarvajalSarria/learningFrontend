@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,31 +8,44 @@
     <title>Document</title>
     <link rel="stylesheet" href="./../globalStyle/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="script.js"></script>
+    
 </head>
+
 <body>
 
-<h1 id="titulo" class="tituloDiaX">Dia 4</h1>
-    
-<form> 
+    <h1 id="titulo" class="tituloDiaX">Dia 4</h1>
 
-    <div class="formField">
-        <input type="text" placeholder="Name">
-    </div>
+    <form>
 
-    <div class="formField">
-        <h4 id="pregunta">¿Tienes mascotas?</h4>
-        <input type="checkbox" id="checkBox">
-    </div>
+        <div class="formField">
+            <input type="text" placeholder="Name">
+        </div>
 
-    <div class="formField">
-     <input id="nombreDeMascosta" type="text" placeholder="Nombre de tu mascota">
-     
-    </div>
+        <div class="formField">
+            <h4 id="pregunta">¿Tienes mascotas?</h4>
+            <input type="checkbox" id="checkBoxOne" name="pet1">
+            <label for="pet1">Dog</label><br><br>
+            <input type="checkbox" id="checkBoxTwo" name="pet2">
+            <label for="pet2">Cat</label><br><br>
+            <input type="checkbox" id="checkBoxTwo" name="pet3">
+            <label for="pet3">Horse</label><br><br>
 
-    <button>Submit</button>
+            <button id="button" onclick="displayNextDiv()">SUBMIT</button>
 
-</form>
+          
+        </div>
+
+        <div class="formField">
+            <input id="nombreDeMascosta" type="text" placeholder="Nombre de tu mascota" style="display:none">
+
+        </div>
+
+      
+
+    </form>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
