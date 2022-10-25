@@ -1,14 +1,8 @@
-
-$(document).ready(function () {
-  const myCheckBox = $("#checkBox");
-  const myPetName = $("#nombreDeMascosta");
+$(document).ready(function(){
+$("button").click(function () {
+  $("#nombreDeMascosta").toggle(style="display:none");
+  });
 });
-
-
-function displayNextDiv() {
-  let x = document.getElementById("nombreDeMascosta");
-    
-}
 
 
 
