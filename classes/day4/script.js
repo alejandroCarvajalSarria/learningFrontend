@@ -1,8 +1,6 @@
-$(document).ready(function(){
-$("button").click(function () {
-  $("#nombreDeMascosta").toggle(style="display:none");
+$(document).ready(function() {
+  $("button").click(function () {
+  $("#nombreDeMascosta").slideUp(1000,()=>{});
   });
 });
-
-
 
