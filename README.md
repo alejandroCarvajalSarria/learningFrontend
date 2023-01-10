@@ -1,1 +1,1 @@
-# javascriptClasses
+# Teaching javascriptClasses
